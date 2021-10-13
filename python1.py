@@ -1,3 +1,4 @@
+from time import sleep
 print("Hello Word")
 data = int(input("Que dia é hoje?"))
 
@@ -20,3 +21,5 @@ else:
     print("Ontem foi dia", ontem)
     print("Hoje é dia", data)
     print("Amanha é dia", amanha)
+
+sleep(60)
